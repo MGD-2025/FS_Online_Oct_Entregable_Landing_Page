@@ -3,6 +3,7 @@
 :root{
   --azul: #009d95;
   --rosa:#e899c7;
+  --rosa-claro: #EA9FA6FF;
   --font-family: "Lato", sans-serif;
   --font-weight: 300;
   --font-style: normal;
@@ -54,3 +55,88 @@ table {
 }
 
 /*MIC CSS*/
+
+body{
+    font-family: "Lato", sans-serif;    
+    font-weight: 300;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.logo img {
+    width: 200px;
+}
+
+.idioma{
+    width: 150px;
+    height: 50px;
+    background-color:#EA9FA6FF;
+}
+.categorias {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.categorias a{
+    text-decoration: none;
+    color:#009d95;
+
+}
+
+.masthead img{
+    position: relative;
+    width: 100%;
+    filter: brightness(0.7);
+}
+
+.masthead article {
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    color: white;
+}
+
+.masthead article p{
+    margin-bottom: 20px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.masthead article h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.regalo{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0px;
+    left: 50px;
+    color: white;
+    align-items: center;
+}
+
+.regalo h3{
+    width: 80px;
+    height: 35px;
+    align-content: center;
+    background-color: #EA9FA6FF;
+    bottom: 5px;
+}
+
+.regalo h4{
+    width: 150px;
+    height: 35px;
+    background-color: #EA9FA6FF;
+    border-radius: 30px;
+    text-align: center;
+    align-content: center;
+    font-size:15px ;
+}
